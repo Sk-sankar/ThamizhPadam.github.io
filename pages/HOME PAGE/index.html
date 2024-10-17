@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTT Platform</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="./hoome.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Thamizh Padam</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#movies">Movies</a>
+                    </li>
+
+
+                </ul>
+
+                <!-- Search Bar -->
+                <form class="d-flex ms-auto search-bar">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">
+                            <i class="bi bi-search"></i> <!-- Search icon -->
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel for Featured Shows -->
+    <div id="featuredCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/et00413125-bdbfjxmdvk-landscape.avif" class="d-block w-100" alt="Featured Show 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>HITLER</h2>
+                    <p>Watch the latest blockbuster now!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/image-1280x600.jpg" class="d-block w-100" alt="Featured Show 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>The Greatest Of All Time</h2>
+                    <p>Dont miss the Blast..</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/image-1280x600 (1).jpg" class="d-block w-100" alt="Featured Show 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Lubber Pandhu</h2>
+                    <p>Don't miss this family entertainment</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#featuredCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#featuredCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="mb-4">New Releases :</h2>
+        <div id="trendingCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- First Slide -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="./assets/goat.jpg" class="card-img-top" alt="Trending Show 1">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">The Greatest Of All Time</h5>
+                                    <p class="card-text">Action , Drama and Thriller</p>
+                                    <a href="#" class="btn btn-primary">Watch Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="./assets/vettaiyan.jpg" class="card-img-top" alt="Trending Show 2">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">VETTAIYAN</h5>
+                                    <p class="card-text">Action and good story</p>
+                                    <a href="#" class="btn btn-primary">Watch Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="./assets/black.jpg" class="card-img-top" alt="Trending Show 3">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">BLACK</h5>
+                                    <p class="card-text">Horrer,Thriller and crime</p>
+                                    <a href="#" class="btn btn-primary">Watch Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="./assets/lubber pandhu.jpg" class="card-img-top" alt="Trending Show 4">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Lubber Pandhu</h5>
+                                    <p class="card-text">Drama ,Romantic and Sports</p>
+                                    <a href="#" class="btn btn-primary">Watch Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Slide -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="./assets/WhatsApp Image 2024-10-13 at 3.02.22 PM.jpeg" class="card-img-top"
+                                    alt="Trending Show 5">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">MEIYAZHAGAN</h5>
+                                    <p class="card-text">A historical drama.</p>
+                                    <a href="#" class="btn btn-primary">Watch Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="./assets/image-300x450.jpg" class="card-img-top" alt="Trending Show 6">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">DEMONTE COLONY 2</h5>
+                                    <p class="card-text">Horrer and Thriller</p>
+                                    <a href="#" class="btn btn-primary">Watch Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="./assets/vazhai.jpg" class="card-img-top" alt="Trending Show 7">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">VAZHAI</h5>
+                                    <p class="card-text">Based on Truestory</p>
+                                    <a href="#" class="btn btn-primary">Watch Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="./assets/thabngalan.jpg" class="card-img-top" alt="Trending Show 8">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">THANGALAN</h5>
+                                    <p class="card-text"> Histrocial</p>
+                                    <a href="#" class="btn btn-primary">Watch Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#trendingCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#trendingCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- New Releases Section -->
+    <div id="movies" class="container my-5">
+        <h2 class="mb-4">Actors :</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./assets/thalapathy.jpg" class="card-img-top" alt="New Release 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">THALAPATHY VIJAY</h5>
+                        <p class="card-text">Welcome Nanba Nanbis</p>
+                        <a href="#" class="btn btn-primary">Movies</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./assets/ajith kumar.jpg" class="card-img-top" alt="New Release 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">AJITH KUMAR</h5>
+                        <p class="card-text">This is just a beginning</p>
+                        <a href="#" class="btn btn-primary">Movies</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./assets/rajini.jpg" class="card-img-top" alt="New Release 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">RAJINIKANTH</h5>
+                        <p class="card-text">Pera Kettalae Adhirudhula</p>
+                        <a href="#" class="btn btn-primary">Movies</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./assets/kamal hasan.jpg" class="card-img-top" alt="New Release 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">KAMAL HASAN</h5>
+                        <p class="card-text">Nallu Peruku Naladhuna</p>
+                        <a href="#" class="btn btn-primary">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./assets/sivakarthieyan.jpg" class="card-img-top" alt="New Release 4">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">SIVA KARTHIKEYAN</h5>
+                        <p class="card-text">Ulagin Thalai Serandha Sol Seiyal</p>
+                        <a href="#" class="btn btn-primary">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./assets/dhanush1.jpg" class="card-img-top" alt="New Release 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">DHANUSH</h5>
+                        <p class="card-text">Endha Vandhuta Rasaa</p>
+                        <a href="#" class="btn btn-primary">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./assets/suriya.jpg" class="card-img-top" alt="New Release 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">SURIYA</h5>
+                        <p class="card-text">Er Otturavanum Aeroplane la povan</p>
+                        <a href="#" class="btn btn-primary">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./assets/vijay sedhupathi.jpg" class="card-img-top" alt="New Release 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">VIJAY SETHUPATHI</h5>
+                        <p class="card-text">Kanakula Vena nenga puliya erukalam</p>
+                        <a href="#" class="btn btn-primary">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer py-3">
+        <div class="container">
+            <p class="text-center">© 2024 OTT Platform. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
